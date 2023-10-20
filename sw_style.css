@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main  {grid-area: area1;}
+.jessica {grid-area: area2;}
+.spencer {grid-area: area3;}
+.sara {grid-area: area4;}
+.david {grid-area: area5;}
+
+
+.grid-contenair {
+    display: grid;
+    grid-template-areas: 
+    'area1 area2 area2'
+    'area3 area4 area5'
+    'area3 area4 area5';
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-contenair > div {
+    padding: 20px 0;
+}
+
+.spencer {
+    height: 300px;
+}
+
+#img-main {
+position: relative;
+left: 60px;
+top: 20px;
+width: 350px;
+
+}
+
+#img-jess {
+    position: relative;
+    top: 100px;
+    left: 5px;
+    }
+
+#text-pr {
+    position: relative;
+    top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#text-scd {
+    position: relative;
+    top: 40px;
+    }
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0 30px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 0,3s;
+}
+
+a:hover {
+    color: #ff4500;
+}
+
+
+#copyright {
+    float: right;
+}
+
+#img2 {
+    position: relative;
+    top: 0;
+    left: 60px;
+}
+
+#img3 {
+    position: relative;
+    top: 0;
+    left:15px;
+}
+
+#img4 {
+    position: relative;
+    top: 0;
+    left: 15px;
+}
+
+#text-3 {
+    position: relative;
+    top: 0;
+    left: 60px;
+}
+
+#ss-text1 {
+    position: relative;
+    left: 60px;
+    top: 0;
+}
+
+#text-4 {
+    position: relative;
+    top: 0;
+    left: 15px;
+}
+
+#ss-text2 {
+position: relative;
+top: 0;
+left: 15px;
+}
+
+#text-5 {
+    position: relative;
+    top: 0;
+    left: 15px;
+}
+
+#ss-text3 {
+    position: relative;
+    top: 0;
+    left: 15px;
+}
+
+#spencer1 {
+    position: relative;
+    left: 60px;
+}
+
+#david1 {
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+
+#david2 {
+    position: relative;
+    bottom: 25px;
+    left: 65px;
+}
+
+#sara1 {
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+#sara2 {
+    position: relative;
+    bottom: 25px;
+    left: 65px;
+}
+
+#spencer1 {
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+#spencer2 {
+    position: relative;
+    left: 110px;
+    bottom:25px;
+}
+
+#logo, #logo2 {
+    margin-left: 65px;
+}
+
+#jess2 {
+    position: relative;
+    top: 55px;
+    left: 60px;
+}
+
+div p {
+    color: grey;
+}
+
+div p strong {
+    color: black;
+}
+
+
+
+
+
+
